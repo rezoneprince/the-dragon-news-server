@@ -20,7 +20,7 @@ const run = async () => {
   // await client.connect();
   console.log("📍Database connection established");
   try {
-    const db = client.db("dragon_news");
+    const db = client.db("the-dragon-news");
     const categoriesCollection = db.collection("categories");
     const newsCollection = db.collection("news");
     // get all news
